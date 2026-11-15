@@ -1,0 +1,57 @@
+{
+ "chosen": "sup",
+ "thr": 0.7,
+ "val_macro": 0.9156522209290401,
+ "val": {
+  "butpdb": 0.9223300970873787,
+  "pwave": 0.8764283675015432,
+  "qtdb": 0.9481981981981982
+ },
+ "variants": {
+  "baseline": {
+   "thr": 0.6,
+   "val_macro": 0.8921234261152756,
+   "val": {
+    "butpdb": 0.8877005347593583,
+    "pwave": 0.8554099531838207,
+    "qtdb": 0.9332597904026476
+   },
+   "train_macro_oof": null
+  },
+  "sup": {
+   "thr": 0.7,
+   "val_macro": 0.9156522209290401,
+   "val": {
+    "butpdb": 0.9223300970873787,
+    "pwave": 0.8764283675015432,
+    "qtdb": 0.9481981981981982
+   },
+   "train_macro_oof": 0.8949836541503018
+  },
+  "semi": {
+   "thr": 0.7,
+   "val_macro": 0.9136471483088376,
+   "val": {
+    "butpdb": 0.919304248645566,
+    "pwave": 0.8735559321725948,
+    "qtdb": 0.9480812641083521
+   },
+   "train_macro_oof": 0.8968163160211976
+  }
+ },
+ "epochs": 15,
+ "seeds": 3,
+ "width": 1,
+ "knn": 10,
+ "bank": 8192,
+ "lambda_u": 1.0,
+ "tau": 0.95,
+ "pretrain_epochs": 10,
+ "temp": 0.1,
+ "lambda_p": 1.0,
+ "hi": 0.8,
+ "lo": 0.2,
+ "folds": 3,
+ "max_hours": 50,
+ "unlabelled_windows": 397546
+}

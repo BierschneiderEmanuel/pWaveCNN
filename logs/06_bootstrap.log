@@ -1,0 +1,37 @@
+Patient bootstrap, B=2000, stratified by database, 95 % percentile intervals (values in %)
+[val] rules
+  butpdb  SE= 85.5 [ 73.8,  93.8]  PPV= 82.6 [ 67.6,  92.3]  F1= 84.0 [ 72.1,  91.5]  (patients 10)
+  pwave   SE= 78.9 [ 58.6,  98.1]  PPV= 86.7 [ 69.9,  99.4]  F1= 82.6 [ 63.8,  98.8]  (patients 3)
+  qtdb    SE= 91.7 [ 82.3,  99.4]  PPV= 93.5 [ 86.0,  98.6]  F1= 92.6 [ 85.5,  97.8]  (patients 16)
+  macro   F1= 86.4 [ 77.8,  92.3]
+[val] learned
+  butpdb  SE= 88.4 [ 77.8,  95.5]  PPV= 89.1 [ 79.8,  95.5]  F1= 88.8 [ 79.7,  94.3]  (patients 10)
+  pwave   SE= 83.0 [ 57.6,  99.3]  PPV= 88.2 [ 69.5,  99.4]  F1= 85.5 [ 63.0,  99.3]  (patients 3)
+  qtdb    SE= 92.8 [ 84.0,  99.6]  PPV= 93.9 [ 85.9,  99.2]  F1= 93.3 [ 86.9,  98.0]  (patients 16)
+  macro   F1= 89.2 [ 81.0,  94.2]
+[val] learned+cnn
+  butpdb  SE= 90.5 [ 81.6,  96.5]  PPV= 94.0 [ 87.5,  97.7]  F1= 92.2 [ 85.0,  96.5]  (patients 10)
+  pwave   SE= 83.7 [ 57.5,  99.3]  PPV= 92.0 [ 81.5,  99.2]  F1= 87.6 [ 67.4,  99.3]  (patients 3)
+  qtdb    SE= 92.3 [ 83.3,  99.6]  PPV= 97.5 [ 93.7,  99.8]  F1= 94.8 [ 89.2,  99.5]  (patients 16)
+  macro   F1= 91.6 [ 84.4,  95.8]
+[val] macro F1 learned-rules = +2.79 [+1.06, +5.58]  share of replicates <= 0: 0.000
+[val] macro F1 learned+cnn-rules = +5.15 [+3.00, +8.50]  share of replicates <= 0: 0.000
+[val] macro F1 learned+cnn-learned = +2.35 [+1.10, +4.08]  share of replicates <= 0: 0.000
+[test] rules
+  butpdb  SE= 79.6 [ 64.8,  90.2]  PPV= 78.9 [ 54.6,  92.2]  F1= 79.2 [ 60.8,  89.3]  (patients 7)
+  pwave   SE= 76.0 [ 76.0,  76.0]  PPV= 88.8 [ 88.8,  88.8]  F1= 81.9 [ 81.9,  81.9]  (patients 1)
+  qtdb    SE= 84.4 [ 74.7,  93.2]  PPV= 90.8 [ 78.8,  99.8]  F1= 87.5 [ 78.6,  94.5]  (patients 20)
+  macro   F1= 82.9 [ 76.2,  87.1]
+[test] learned
+  butpdb  SE= 89.1 [ 77.5,  96.7]  PPV= 91.0 [ 82.6,  96.3]  F1= 90.0 [ 80.7,  95.7]  (patients 7)
+  pwave   SE= 87.0 [ 87.0,  87.0]  PPV= 97.9 [ 97.9,  97.9]  F1= 92.1 [ 92.1,  92.1]  (patients 1)
+  qtdb    SE= 88.0 [ 78.8,  95.5]  PPV= 91.2 [ 80.2,  99.8]  F1= 89.6 [ 80.6,  96.2]  (patients 20)
+  macro   F1= 90.6 [ 86.4,  93.4]
+[test] learned+cnn
+  butpdb  SE= 91.1 [ 83.0,  97.0]  PPV= 92.3 [ 83.6,  96.9]  F1= 91.7 [ 83.7,  96.5]  (patients 7)
+  pwave   SE= 87.2 [ 87.2,  87.2]  PPV= 98.7 [ 98.7,  98.7]  F1= 92.6 [ 92.6,  92.6]  (patients 1)
+  qtdb    SE= 87.5 [ 78.5,  95.0]  PPV= 92.8 [ 81.0, 100.0]  F1= 90.1 [ 82.3,  96.1]  (patients 20)
+  macro   F1= 91.4 [ 87.8,  94.0]
+[test] macro F1 learned-rules = +7.71 [+5.43, +11.88]  share of replicates <= 0: 0.000
+[test] macro F1 learned+cnn-rules = +8.58 [+6.06, +12.99]  share of replicates <= 0: 0.000
+[test] macro F1 learned+cnn-learned = +0.87 [-0.09, +2.00]  share of replicates <= 0: 0.036

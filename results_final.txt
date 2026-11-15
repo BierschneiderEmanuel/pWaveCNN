@@ -1,0 +1,9 @@
+[train] rule detector                    macro F1=87.64  pooled F1=86.42  butpdb: Se=81.2 PPV=88.3 F1=84.6  pwave: Se=79.7 PPV=93.5 F1=86.1  qtdb: Se=90.4 PPV=94.2 F1=92.2
+[train] learned detector                 macro F1=88.64  pooled F1=87.42  butpdb: Se=83.4 PPV=90.4 F1=86.8  pwave: Se=81.3 PPV=93.3 F1=86.9  qtdb: Se=91.7 PPV=92.8 F1=92.2
+[train] learned detector + CNN           macro F1=92.75  pooled F1=92.64  butpdb: Se=85.2 PPV=94.7 F1=89.7  pwave: Se=87.8 PPV=98.9 F1=93.0  qtdb: Se=93.6 PPV=97.6 F1=95.6
+[val  ] rule detector                    macro F1=86.42  pooled F1=83.64  butpdb: Se=85.5 PPV=82.6 F1=84.0  pwave: Se=78.9 PPV=86.7 F1=82.6  qtdb: Se=91.7 PPV=93.5 F1=92.6
+[val  ] learned detector                 macro F1=89.21  pooled F1=86.63  butpdb: Se=88.4 PPV=89.1 F1=88.8  pwave: Se=83.0 PPV=88.2 F1=85.5  qtdb: Se=92.8 PPV=93.9 F1=93.3
+[val  ] learned detector + CNN           macro F1=91.57  pooled F1=88.89  butpdb: Se=90.5 PPV=94.0 F1=92.2  pwave: Se=83.7 PPV=92.0 F1=87.6  qtdb: Se=92.3 PPV=97.5 F1=94.8
+[test ] rule detector                    macro F1=82.87  pooled F1=82.60  butpdb: Se=79.6 PPV=78.9 F1=79.2  pwave: Se=76.0 PPV=88.8 F1=81.9  qtdb: Se=84.4 PPV=90.8 F1=87.5
+[test ] learned detector                 macro F1=90.58  pooled F1=91.08  butpdb: Se=89.1 PPV=91.0 F1=90.0  pwave: Se=87.0 PPV=97.9 F1=92.1  qtdb: Se=88.0 PPV=91.2 F1=89.6
+[test ] learned detector + CNN           macro F1=91.45  pooled F1=91.80  butpdb: Se=91.1 PPV=92.3 F1=91.7  pwave: Se=87.2 PPV=98.7 F1=92.6  qtdb: Se=87.5 PPV=92.8 F1=90.1

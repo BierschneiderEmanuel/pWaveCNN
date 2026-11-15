@@ -1,0 +1,26 @@
+features: 22, train candidates 75042 (pos 40690), 55s
+logreg     thr=0.2  train=87.08  val=83.10  butpdb=80.8 pwave=79.1 qtdb=89.5
+logreg     thr=0.3  train=87.77  val=85.23  butpdb=84.1 pwave=81.1 qtdb=90.5
+logreg     thr=0.4  train=88.31  val=87.13  butpdb=86.5 pwave=83.0 qtdb=91.9
+logreg     thr=0.5  train=88.60  val=88.36  butpdb=88.2 pwave=84.5 qtdb=92.4
+logreg     thr=0.6  train=88.64  val=89.21  butpdb=88.8 pwave=85.5 qtdb=93.3
+logreg     thr=0.7  train=88.51  val=89.13  butpdb=88.2 pwave=85.7 qtdb=93.5
+hgb_small  thr=0.2  train=91.99  val=82.89  butpdb=80.0 pwave=78.2 qtdb=90.5
+hgb_small  thr=0.3  train=92.66  val=84.40  butpdb=81.9 pwave=79.8 qtdb=91.6
+hgb_small  thr=0.4  train=93.00  val=85.40  butpdb=83.0 pwave=80.9 qtdb=92.3
+hgb_small  thr=0.5  train=92.97  val=85.95  butpdb=83.6 pwave=81.5 qtdb=92.7
+hgb_small  thr=0.6  train=92.79  val=86.14  butpdb=84.2 pwave=80.9 qtdb=93.3
+hgb_small  thr=0.7  train=92.16  val=85.95  butpdb=83.6 pwave=80.6 qtdb=93.7
+hgb_mid    thr=0.2  train=92.99  val=83.60  butpdb=81.3 pwave=78.9 qtdb=90.7
+hgb_mid    thr=0.3  train=93.47  val=85.10  butpdb=83.3 pwave=80.3 qtdb=91.7
+hgb_mid    thr=0.4  train=93.67  val=86.17  butpdb=85.1 pwave=80.9 qtdb=92.5
+hgb_mid    thr=0.5  train=93.76  val=86.68  butpdb=86.4 pwave=80.9 qtdb=92.8
+hgb_mid    thr=0.6  train=93.65  val=86.81  butpdb=86.7 pwave=80.7 qtdb=93.1
+hgb_mid    thr=0.7  train=93.22  val=86.92  butpdb=86.9 pwave=80.4 qtdb=93.4
+hgb_large  thr=0.2  train=93.82  val=84.03  butpdb=81.9 pwave=79.1 qtdb=91.0
+hgb_large  thr=0.3  train=94.18  val=85.44  butpdb=84.0 pwave=80.4 qtdb=92.0
+hgb_large  thr=0.4  train=94.38  val=86.10  butpdb=85.4 pwave=80.6 qtdb=92.3
+hgb_large  thr=0.5  train=94.46  val=86.76  butpdb=86.9 pwave=80.7 qtdb=92.7
+hgb_large  thr=0.6  train=94.31  val=86.98  butpdb=87.3 pwave=80.8 qtdb=92.9
+hgb_large  thr=0.7  train=93.99  val=86.85  butpdb=86.8 pwave=80.6 qtdb=93.2
+chosen logreg thr=0.6: train=88.64 val=89.21

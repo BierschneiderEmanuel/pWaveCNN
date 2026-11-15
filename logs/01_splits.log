@@ -1,0 +1,7 @@
+butpdb done
+pwave done
+qtdb done
+butpdb {'train': (32, 7916), 'val': (11, 1812), 'test': (7, 1130)} (records, P labels)
+pwave {'train': (120, 31244), 'val': (45, 9842), 'test': (15, 3006)} (records, P labels)
+qtdb {'train': (69, 4122), 'val': (16, 1030), 'test': (20, 1236)} (records, P labels)
+groups: 142 groups in >1 split: 0
